@@ -37,12 +37,46 @@
       // Do.... while loop 
 
 
+// do {
+//   // body of loop
+// } while (condition);
+
+#include <stdio.h>
+
+int main() {
+
+  int count = 1;
+
+  do {
+    printf("%d\n", count);
+    count += 1;
+  } while (count < 5);
+
+  return 0;
+}
+
+/*
+// ----------------------------
+
+// do... while loop 
+
+do {
+  printf("%d \n", count);
+  count += 1;
+} while (count < 1);
 
 
+// -------------------------- 
+
+// while loop
 
 
+while (count < 5) {
+  printf("%d \n", count);
+  count += 1;
+}
 
-
+*/
 
 
 
