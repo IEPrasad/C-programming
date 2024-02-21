@@ -106,5 +106,42 @@
 
 // --------------
 
+// Programming Task
+
+// Can you write a program that takes an input 
+// from the user and prints it if the value is a 
+// negative idd number?
+
+//   . If the input value is positive, end the loop with 
+//     message, "Positive Value".
+  
+//   . If the input value negative even, skip the 
+//     value with message "Negative Even".
+
+
+#include <stdio.h>
+
+int main() {
+
+  while(1) {
+    printf("Enter a value: ");
+    int input_value;
+    scanf("%d", &input_value);
+
+    if (input_value > 0) {
+      printf("Positive Value");
+      break;
+    }
+    if (input_value < 0 && input_value % 2 == 0) {
+      printf("Negative Even\n");
+      continue;
+    }
+  }
+
+  return 0;
+}
+
+
+
 
 
