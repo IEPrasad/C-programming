@@ -57,20 +57,20 @@
 
 //  -- continue statement
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main() {
+// int main() {
 
-  for (int i = 1; i <= 5; i++) {
-    if (i == 3) {
-      continue;
-    }
+//   for (int i = 1; i <= 5; i++) {
+//     if (i == 3) {
+//       continue;
+//     }
   
-    printf("%d\n", i);
-  }
+//     printf("%d\n", i);
+//   }
 
-  return 0;
-}
+//   return 0;
+// }
 
 // >> 1
 // >> 2
@@ -79,25 +79,32 @@ int main() {
 
 // --------^^^^ look at these output
 
+// Example : break and continue 
+
+// #include <stdio.h>
+
+// int main() {
+
+//   while (1) {
+//    int number;
+//    printf("Enter a number: ");
+//    scanf("%d", &number);
+
+//    if (number <= 0) {
+//     break;
+//    }
+//    if ((number % 2) != 0) {
+//     continue;
+//    }
+
+//   printf("%d\n", number);
+
+//   }
+//   return 0;
+// }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// --------------
 
 
 
