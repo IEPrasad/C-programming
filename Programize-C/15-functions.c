@@ -108,29 +108,88 @@
 
     // -- Function Prototype 
 
-  
+// #include <stdio.h>
+
+// int addNumbers(int number1, int number2);
+
+// int main() {
+
+//     int result = addNumbers(10, 12);
+//     printf("Result = %d", result);
+
+//   return 0;
+// }
+   
+// int addNumbers(int number1, int number2) {
+//   int sum = number1 + number2;
+
+//   return sum;
+// }
+
+// >> Result = 22
 
 
+// ***** if we put the function after the call the 
+// function, when we can add put the prototype of 
+// function befor we called the funtion 
+// thats only need like this 
+// int addNumbers(int number1, int number2);
+// no need function body...
+
+// -----------------------------------------------
+
+  // -- Standard Library Funtion 
+
+// #include <stdio.h>
+// #include <math.h>
+
+// int main() {
+//     float result = sqrt(25);
+//     printf("Square root is %.3f", result);
+
+//     // this sqrt() function is built-in function 
+//     // as like printf() funtion 
+
+//   return 0;
+// }
+
+// >> Square root is 5.000
+// ----------------------------------------------------
+
+// -- main Function 
+
+// ** main is also a function in C
+// ** It is the first function 
+// ** that is executed by the compiler 
+// ** so every C program should include a main function.
+
+// ---------------------------------------------------
 
 
+  // Programming Task
 
+// Can you create a function that 
 
+//   . takes two numbers 
+//   . perform the multiplication of two numbers 
+//   . returns the result 
 
+#include <stdio.h>
 
+int main() {
 
+  int num1, num2;
+  printf("Enter first number: ");
+  scanf("%d", &num1);
 
+  printf("Enter second number: ");
+  scanf("%d,", &num2);
 
+  int result = num1 * num2;
+  printf("Multiplication of %d and %d is %d", num1, num2, result);
 
-
-
-
-
-
-
-
-
-
-
+  return 0;
+}
 
 
 
