@@ -26,6 +26,7 @@ int main() {
 
 */
 
+/*
     // ctype Header File 
 
 
@@ -40,6 +41,61 @@ int main() {
 
   char lower = tolower(upper);
   printf("\n%c", lower);
-  
+
   return 0;
 }
+
+*/
+
+
+    // Benifits of Standard Library Functions
+
+
+// ----
+// ---
+// ---
+
+
+
+// Programming Task 
+
+  // ** Create a program that computes the result of a 
+  //    number raised to the power of the square root 
+  //    of a number.
+
+  //    . Take a input from user
+    
+  //    . Compute the square root of a number using 
+  //      sqrt()
+
+  //    . Compute the power of the number raised to 
+  //      the power of its square root 
+
+  //    . Print the result 
+
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+  int inputValue;
+  printf("Enter Value: ");
+  scanf("%d", &inputValue);
+
+  double square = sqrt(inputValue);
+
+  double power = pow(inputValue, square);
+
+  printf("The result is: %lf", power);
+
+
+  return 0;
+}
+
+
+
+
+
+
+
