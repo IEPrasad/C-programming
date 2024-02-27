@@ -1,6 +1,6 @@
 /*
-3. Write a program in C to make a such a pattern 
-like right angle triangle 
+3. Write a program in C to make a such a pattern like right angle triangle 
+with a number which will repeat a number in a row 
 The pattern like :
 
 1
