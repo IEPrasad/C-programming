@@ -21,3 +21,6 @@ int main() {
 
   return 0;
 }
+
+// there is some issues 
+// please recorrection these things 
