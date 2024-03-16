@@ -101,37 +101,103 @@ int main() {
 
 // ------------^^ instead of this code we can use vv this code 
 
-#include <stdio.h>
+// #include <stdio.h>
 
+// int main() {
+
+
+// int age[5];
+
+// printf("Enter 5 input values: \n");
+
+//   for (int i = 0; i < 5; ++i) {
+//     scanf("%d", &age[i]);
+//   }
+
+//   for (int i = 0; i < 5; ++i) {
+//     printf("%d", age[i]);
+//   }
+
+
+//   return 0;
+// }
+
+
+// -----------------------
+
+  // Index Out of Bound Error
+
+  // #include <stdio.h>
+
+  // int main() {
+
+  //   int age[5];
+  //   printf("Enter 5 number values: ");
+
+  //   for (int i = 0; i < 5; ++i) {
+  //     scanf("%d", &age[i]);
+  //   }
+
+  //   for (int i = 0; i < 10; ++i) // <<<< look at this
+  //   {
+  //     printf("%d\n", age[i]);
+  //   }
+
+  //   return 0;
+  // }
+
+  // >> it can give us like this 
+
+// 2
+// 3
+// 4
+// 5
+// 55
+// 5
+// 5
+// 2
+// 1906100
+// 6422376
+
+
+// --------------------------------
+
+// Programming Task
+
+// Create a program that computes the average marks of a student.
+
+//  ** Create an array that stores the marks of 5 sujects
+
+//  ** Compute the total marks by adding all the marks 
+
+//  ** Divide the total marks by total number of subjects
+
+//  ** Print the average marks
+
+
+#include <stdio.h>
+ 
 int main() {
 
-
-int age[5];
-
-printf("Enter 5 input values: \n");
-
-  for (int i = 0; i < 5; ++i) {
-    scanf("%d", &age[i]);
-  }
+  int marks[5];
+  int total = 0;
+  float average;
+  printf("Enter 5 subjects marks: \n");
 
   for (int i = 0; i < 5; ++i) {
-    printf("%d", age[i]);
+    scanf("%d", &marks[i]);
   }
-  
+  for (int i = 0; i < 5;  ++i) {
+    total = total + marks[i];
+  }
+  printf("The total of the marks: %d\n", total);
+  average = total/5;
+  printf("The average of the marks: %0.2f",  average);
+
+
 
   return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
