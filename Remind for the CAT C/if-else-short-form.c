@@ -12,3 +12,6 @@ int main() {
                 : printf("\nSecond value (%d) is greater than or equal to the first value (%d).", num2, num1);
   return 0;
 }
+
+
+// this is call as ternary operator 
