@@ -15,3 +15,7 @@ int main() {
 
 
 // this is call as ternary operator 
+
+
+// this is very important code 
+// so do this again and again 
