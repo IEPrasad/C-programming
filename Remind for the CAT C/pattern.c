@@ -20,3 +20,8 @@ if (row <= 10 && row >= 1) {
 }
 
 }
+
+
+
+// This is not enough 
+// so don't stop learning about C 
