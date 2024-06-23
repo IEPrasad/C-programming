@@ -31,3 +31,18 @@ int main() {
 
     return 0;
 }
+
+Enter the number of rows: 10
+Enter the number of columns: 8
+         ********
+        ********
+       ********
+      ********
+     ********
+    ********
+   ********
+  ********
+ ********
+********
+
+// This is the out put of this code !
