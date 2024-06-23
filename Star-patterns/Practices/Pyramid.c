@@ -4,6 +4,11 @@ int main() {
     int i, j, rows;
 
     // Asking for user input for the number of rows
+    // sometimes we can give the range for the input for the user... 
+    // sometimes its good pracitce like using Enter row number less than 10
+    // like this and then we should use if else statement 
+
+    
     printf("Enter the number of rows: ");
     scanf("%d", &rows);
 
@@ -23,3 +28,18 @@ int main() {
 
     return 0;
 }
+
+
+Enter the number of rows: 10
+         *
+        ***
+       *****
+      *******
+     *********
+    ***********
+   *************
+  ***************
+ *****************
+*******************
+
+the out put of this code 
