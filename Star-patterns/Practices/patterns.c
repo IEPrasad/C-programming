@@ -41,13 +41,12 @@ int main() {
 
   if (row <= 10 && row >= 1) {
     for (i = 1; i <= row; i++) {
-      for (j = 1; j < row; j++) {
-        if (j <= row-1) {
-          printf("s");
-        } else {
-          printf("\n");
+      for (j = 1; j < 2*row; j++) {
+        if (j >= i*2 -1) {
+          printf("a");
         }
-      }     
+      } 
+      printf("\n");    
     }
 
 
@@ -58,6 +57,18 @@ int main() {
 
   return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
