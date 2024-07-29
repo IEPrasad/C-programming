@@ -17,3 +17,22 @@ int main() {
   }
   return 0;
 }
+
+// -------------------------------------------- 
+
+#include <stdio.h>
+
+int main() {
+    char str[100];  // Define a char array to hold the input string
+
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);  // Read a string from the user including spaces
+
+    printf("You entered: %s", str);  // Print the string
+
+    return 0;
+}
+
+// This code shows how to take string input from the user 
+
+// ------------------------------------------------
